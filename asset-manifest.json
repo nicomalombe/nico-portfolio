@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nico-portfolio/static/css/main.b0bbfb07.css",
-    "main.js": "/nico-portfolio/static/js/main.42a27e6a.js",
+    "main.css": "/nico-portfolio/static/css/main.2ed9f1c1.css",
+    "main.js": "/nico-portfolio/static/js/main.6052a3ce.js",
     "static/js/453.c077411f.chunk.js": "/nico-portfolio/static/js/453.c077411f.chunk.js",
     "static/media/nico1.jpg": "/nico-portfolio/static/media/nico1.beec14841b21e5ca9396.jpg",
     "static/media/goals.jpeg": "/nico-portfolio/static/media/goals.37f1259f6cad3a7a888e.jpeg",
@@ -9,13 +9,15 @@
     "static/media/skills.jpeg": "/nico-portfolio/static/media/skills.f41d2b9d03c02e2298c9.jpeg",
     "static/media/experience.jpeg": "/nico-portfolio/static/media/experience.e3f8e90796f289da330e.jpeg",
     "static/media/passion.jpeg": "/nico-portfolio/static/media/passion.501362946db3d57a826a.jpeg",
+    "static/media/mobile.jpg": "/nico-portfolio/static/media/mobile.01b0c1c7bc63b6ea7bd6.jpg",
+    "static/media/network.jpeg": "/nico-portfolio/static/media/network.757670335b3af8f863eb.jpeg",
     "index.html": "/nico-portfolio/index.html",
-    "main.b0bbfb07.css.map": "/nico-portfolio/static/css/main.b0bbfb07.css.map",
-    "main.42a27e6a.js.map": "/nico-portfolio/static/js/main.42a27e6a.js.map",
+    "main.2ed9f1c1.css.map": "/nico-portfolio/static/css/main.2ed9f1c1.css.map",
+    "main.6052a3ce.js.map": "/nico-portfolio/static/js/main.6052a3ce.js.map",
     "453.c077411f.chunk.js.map": "/nico-portfolio/static/js/453.c077411f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0bbfb07.css",
-    "static/js/main.42a27e6a.js"
+    "static/css/main.2ed9f1c1.css",
+    "static/js/main.6052a3ce.js"
   ]
 }
