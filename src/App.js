@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import Services from './Services'; // ✅ Step 1: import Services
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} /> {/* ✅ Step 2: Add Services route */}
       </Routes>
     </Router>
   );
 }
 
 export default App;
+

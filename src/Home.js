@@ -26,8 +26,12 @@ const Home = () => {
 
         <button className="learn-more-btn" onClick={handleLearnMore}>
           Learn more about me
-        </button>
+        </button><br>
+        </br>
         <Footer />
+        <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} Nicodemus Muimi Malombe. All rights reserved.</p>
+      </div>
       </div>
       
     </div>

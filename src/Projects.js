@@ -2,42 +2,56 @@ import React from 'react';
 import './Projects.css';
 import Footer from './Footer';
 
-const projectData = [
-  {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio built with React, showcasing my skills, projects, and experience.',
-    link: 'https://your-portfolio-link.com',
-  },
-  {
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce application with cart, payment integration, and admin panel.',
-    link: 'https://your-ecommerce-link.com',
-  },
-  {
-    title: 'AI-Powered Diabetes Predictor',
-    description: 'A machine learning app built with Python and Flask that predicts the likelihood of diabetes.',
-    link: 'https://your-ai-project-link.com',
-  },
-];
+
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <h1 className="projects-title">My Projects</h1>
-      <p className="projects-intro">Here are some of the recent projects I've worked on:</p>
-      <div className="projects-grid">
-        {projectData.map((project, index) => (
-          <div className="project-card" key={index}>
-            <h2 className="project-name">{project.title}</h2>
-            <p className="project-description">{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-              View Project →
-            </a>
-          </div>
-        ))}
+    <section className="projects" id="projects">
+      <h2 className="section-title">My Projects</h2>
+      <div className="projects-container">
+
+        <div className="project-card">
+          <h3>Nico Portfolio</h3>
+          <p>A personal portfolio website built using React, showcasing skills and services.</p>
+          <a href="https://github.com/nicomalombe/nico-portfolio" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>Expert System</h3>
+          <p>A rule-based expert system that uses inference logic to provide intelligent to calculate the avarage score and retuen the status of the student performance(class honor) .</p>
+          <a href="https://github.com/nicomalombe/expert-system" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>Diabetes Prediction Model</h3>
+          <p>AI/ML model to predict the likelihood of diabetes using patient data and scikit-learn.</p>
+          <a href="https://github.com/nicomalombe/diabetes_prediction_model" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>Business ERP</h3>
+          <p>A full-featured enterprise resource planning system for small to mid-sized businesses.</p>
+          <a href="https://github.com/nicomalombe/business_erp" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>Kitui Taxi Booking Hub</h3>
+          <p>A complete taxi booking and tracking web application for Kitui-based taxi services.</p>
+          <a href="https://github.com/nicomalombe/kitui_taxi_booking_hub" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
       </div>
-      <Footer />
-    </div>
+     <Footer />
+    </section>
   );
 };
 

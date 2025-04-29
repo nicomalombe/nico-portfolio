@@ -8,7 +8,7 @@ const Contact = () => {
       <p className="contact-subtitle">I'd love to hear from you! Feel free to reach out via email or the form below.</p>
       
       <div className="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:you@example.com">nicomalombe4@gmail.com</a></p>
         <p><strong>Phone:</strong> +254 712 345 678</p>
         <p><strong>Location:</strong> Nairobi, Kenya</p>
       </div>
