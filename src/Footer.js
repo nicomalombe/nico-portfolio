@@ -25,14 +25,10 @@ const Footer = () => {
             <i className="fab fa-github"></i>
           </a>
 
-          <a
-            href="mailto:nicomalombe4@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Email"
-          >
-            <i className="fas fa-envelope"></i>
-          </a>
+          <a href="mailto:nicomalombe4@gmail.com" aria-label="Email">
+  <i className="fas fa-envelope"></i>
+</a>
+
 
           <a
             href="https://wa.me/254794334958"

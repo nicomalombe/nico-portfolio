@@ -15,7 +15,7 @@ const About = () => {
       {/* Section 1: About Me */}
       <section className="about-section">
         <div className="image-container">
-          <img src={aboutImg} alt="About me" />
+        <img src={aboutImg} alt="About me" className="profile-image" />
         </div>
         <div className="text-container">
           <h2>About Me</h2>
