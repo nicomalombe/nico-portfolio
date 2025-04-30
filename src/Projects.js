@@ -2,8 +2,6 @@ import React from 'react';
 import './Projects.css';
 import Footer from './Footer';
 
-
-
 const Projects = () => {
   return (
     <section className="projects" id="projects">
@@ -20,7 +18,7 @@ const Projects = () => {
 
         <div className="project-card">
           <h3>Expert System</h3>
-          <p>A rule-based expert system that uses inference logic to provide intelligent to calculate the avarage score and retuen the status of the student performance(class honor) .</p>
+          <p>A rule-based expert system that uses inference logic to provide intelligent analysis of student transcripts and classify academic performance (e.g., honors).</p>
           <a href="https://github.com/nicomalombe/expert-system" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
@@ -49,8 +47,25 @@ const Projects = () => {
             View on GitHub
           </a>
         </div>
+
+        <div className="project-card">
+          <h3>Loan Default Prediction</h3>
+          <p>A machine learning project that predicts the likelihood of a loan default based on borrower characteristics, using classification algorithms.</p>
+          <a href="https://github.com/nicomalombe/loan-default-prediction" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>AI Supply Chain Optimization</h3>
+          <p>A Python-based AI project designed to forecast demand, optimize inventory, and improve delivery routes using synthetic data and machine learning.</p>
+          <a href="https://github.com/nicomalombe/ai-supply-chain-optimization" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+
       </div>
-     <Footer />
+      <Footer />
     </section>
   );
 };
